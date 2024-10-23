@@ -1,9 +1,6 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'empty_devices_model.dart';
 export 'empty_devices_model.dart';
 
@@ -46,11 +43,11 @@ class _EmptyDevicesWidgetState extends State<EmptyDevicesWidget> {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      decoration: BoxDecoration(),
+      decoration: const BoxDecoration(),
       child: Align(
-        alignment: AlignmentDirectional(0.0, 0.0),
+        alignment: const AlignmentDirectional(0.0, 0.0),
         child: Text(
-          widget!.text!,
+          widget.text!,
           style: FlutterFlowTheme.of(context).labelMedium.override(
                 fontFamily: 'Montserrat',
                 letterSpacing: 0.0,
